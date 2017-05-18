@@ -1,0 +1,304 @@
+
+ /***main styling***/
+
+
+* {
+box-sizing: border-box;
+}
+
+body {
+  font-family: 'BioRhyme', serif;
+  text-align: center;
+}
+
+header h2 {
+padding-bottom: 40px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto 80px;
+  text-align: center;
+  padding: 0.5rem;
+  }
+
+ul {
+  list-style: none;
+  padding: 0;
+
+  }
+
+a {
+  text-decoration: none;
+  color: black;
+  }
+
+a:visited{
+  color: black;
+}
+
+a:hover{
+  color: blue;
+}
+
+
+.about img {
+  max-width: 70%;
+  margin-bottom: 1rem;
+}
+
+.about p {
+ padding-top: 20px;
+ margin: auto;
+ width: 90%;
+ line-height: 2rem;
+
+}
+
+/*******portfolio*******/
+
+#portfolio img {
+  margin: auto;
+  max-width: 90%;
+}
+
+.works {
+  margin-bottom: 50px;
+
+}
+
+#portfolio h2 {
+  margin: 10% auto;
+  font-size: 1.5rem;
+}
+
+/*******studies*******/
+
+.study-list{
+  background-color: WhiteSmoke;
+     width: 90%;
+  margin: 12% auto 8%  auto;
+}
+
+.study-list h2 {
+  padding-top: 10px;
+}
+
+
+
+.study-list span {
+  display: inline-block;
+  margin: auto;
+    width: 50%;
+    float: left;
+    padding-top: 5%;
+    font-size: 1.2rem
+}
+
+.logo {
+  width: 50%;
+  padding-top: 10px;
+  float: left;
+  margin: 0 auto;
+  }
+
+.logo img {
+  width: 40%;
+  max-width: 200px;
+  margin-left: auto;
+  padding: 0;
+}
+
+.owly {
+  width: 20%;
+  padding-top: 30px;
+}
+
+
+/*******contact*******/
+#contact p {
+
+  margin:0 auto;
+}
+
+#contact {
+  width: 100%;
+  margin: 0 auto ;
+  clear: both;
+
+}
+
+
+/*******footer*******/
+
+footer ul {
+  float: right;
+  margin: 0;
+}
+
+footer li{
+  display: inline-block;
+  float: left;
+  margin-right: 4px;
+}
+
+footer p{
+  float: left;
+    margin: 0 0 0 4px;
+}
+
+footer {
+  padding: 0.85em;
+  margin-top: 17px;
+}
+
+/*******footer**********
+media-q
+***********************/
+
+@media (max-width: 767px){
+  .footer-nav{
+    display: none;
+  }
+
+  footer p, footer li  {
+    font-size: 1rem;
+  }
+  header li {
+   padding-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+
+/******header tablet+ ******/
+header li {
+  float: left;
+  padding: 20px;
+}
+
+header ul {
+  display: inline-block;
+}
+
+.profileimg {
+  width: 50%;
+  float: right;
+  padding-right: 30px;
+  }
+
+.about p {
+  font-size: 1.3rem;
+  width: 50%;
+  padding: 1rem 5% 0 5%;
+  margin-left: 10px;
+  line-height: 1.5rem;
+}
+
+
+
+/******tablet general***/
+  .works {
+    width: 50%;
+    float:left;
+    font-size: 0.89em;
+    margin-bottom: 30px;
+    }
+
+    .works p{
+      min-height: 4em;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  .mobile-nav {
+      display: none;
+    }
+
+    footer p, footer li  {
+      font-size: 1rem;
+    }
+
+    footer li {
+      padding-left: 8px;
+    }
+}
+
+/******larger screens*****/
+@media (min-width: 1024px) {
+  body {
+    font-size: 1.3rem;
+  }
+  header {
+    margin-bottom: 10px !important;
+    margin-top: 20px !important;
+    font-weight: bold;
+  }
+  header h2{
+
+    float:left;
+      margin-top:0;
+    font-size: 1.3rem;
+  font-weight: bold;
+  }
+
+header ul {
+      float: right;
+    margin-top: 0;
+  }
+
+  header li {
+    padding-top: 0;
+    padding-right: 10px;
+    font-size: 1.3rem;
+  }
+
+  .study-list {
+    width: 75%;
+    margin-bottom: 1px;
+      }
+
+  .study-list span {
+    font-size: 2rem;
+  }
+
+  .about p{
+    line-height: 150%;
+    padding-top: 9%;
+  }
+
+
+  .works {
+    max-width: 33.333%;
+    float:left;
+    margin:0 auto 30px auto;
+}
+
+.works p{
+  min-height: 5em;
+  margin: auto 10px;
+}
+
+.contact p {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+footer ul {
+  margin-right: 10px;
+}
+
+footer p {
+  margin-left: 10px;
+}
+
+}
+
+
+/*******clearfix*******/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
